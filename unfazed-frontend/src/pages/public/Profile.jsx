@@ -104,7 +104,20 @@ const PublicProfile = () => {
           <p className="text-gray-600 mb-6">
             Rate: â‚¹{therapist.settings?.paymentSettings?.sessionRate || 'Contact for pricing'}
           </p>
-          <Link to="/login" className="btn-primary inline-block">Login to Book</Link>
+          <div className="flex gap-3 flex-wrap">
+            <Link
+              to="/client/login"
+              className="btn-primary inline-block"
+            >
+              Login as Client to Book
+            </Link>
+            <Link
+              to="/client/register"
+              className="btn-secondary inline-block"
+            >
+              New? Sign Up to Book
+            </Link>
+          </div>
         </div>
       </div>
     </div>
