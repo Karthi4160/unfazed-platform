@@ -1,0 +1,12 @@
+﻿node_modules/
+.env
+uploads/
+*.log
+.DS_Store
+.vscode/
+write-*.ps1
+check-*.js
+cleanup-*.js
+debug-*.js
+fix-*.js
+mark-*.js
